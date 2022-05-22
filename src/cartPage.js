@@ -121,13 +121,13 @@ const CartPage = () => {
                   value="norunāta tikšanās"
                 />
                 <br />
-                <label>Name: </label>
+                <label>Vārds: </label>
                 <input type="text" name="user_name" />
                 <br />
-                <label>Surname: </label>
+                <label>Uzvārds: </label>
                 <input type="text" name="user_surname" />
                 <br />
-                <label>Email: </label>
+                <label>E-pasts: </label>
                 <input type="email" name="user_email" />
                 <br />
                 <h3>Summa: ${totalRef.current}</h3>
@@ -155,7 +155,10 @@ const CartPage = () => {
       </main>
       <footer id="footer">
         <a href="#" className="fa fa-facebook"></a>
-        <a href="#" className="fa fa-instagram"></a>
+        <a
+          href="https://instagram.com/_zipkre_smu_?igshid=YmMyMTA2M2Y="
+          className="fa fa-instagram"
+        ></a>
       </footer>
     </>
   );
