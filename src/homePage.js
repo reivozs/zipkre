@@ -94,7 +94,7 @@ const HomePage = () => {
         <div className="leftHeader">
           <nav>
             <li>
-              <Link to="/cart">
+              <Link to="/zipkre/cart/">
                 <i className="fa fa-shopping-cart">
                   <span className="productCountCircle">
                     {productList ? productList.length : 0}
