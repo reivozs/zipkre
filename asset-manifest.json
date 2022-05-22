@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/zipkre/static/css/main.0ebea41b.css",
+    "main.js": "/zipkre/static/js/main.59436818.js",
+    "static/media/sarkanszils.png": "/zipkre/static/media/sarkanszils.f252dde89cd2b4f44af4.png",
+    "static/media/blueSleeve.jpeg": "/zipkre/static/media/blueSleeve.1dbe9880489b612c9100.jpeg",
+    "static/media/greenSleeve.jpeg": "/zipkre/static/media/greenSleeve.e99397ac4e340eb1360c.jpeg",
+    "static/media/blackSleeve.jpeg": "/zipkre/static/media/blackSleeve.37098acc087c51b9704b.jpeg",
+    "static/media/redSleeve.jpeg": "/zipkre/static/media/redSleeve.f1d5b633da2532ec1baf.jpeg",
+    "static/media/zaļš.jpeg": "/zipkre/static/media/zaļš.28f421198c8261fbd526.jpeg",
+    "static/media/melns.jpeg": "/zipkre/static/media/melns.990381d98f1a9549d9f7.jpeg",
+    "static/media/balts.jpeg": "/zipkre/static/media/balts.50076cf834a72d4ebd62.jpeg",
+    "static/media/green.jpeg": "/zipkre/static/media/green.b751b02117512e0660d9.jpeg",
+    "static/media/zils.jpeg": "/zipkre/static/media/zils.4a078ded54cc861983c2.jpeg",
+    "static/media/blue.jpeg": "/zipkre/static/media/blue.bd30418055aafcafc065.jpeg",
+    "static/media/sarkans.jpeg": "/zipkre/static/media/sarkans.613c1027a277bd0d3c57.jpeg",
+    "static/media/black.jpeg": "/zipkre/static/media/black.333208627bdf8b511c0b.jpeg",
+    "static/media/white.jpeg": "/zipkre/static/media/white.3acf746a039e0e03d659.jpeg",
+    "static/media/red.jpeg": "/zipkre/static/media/red.9307ffa0425450cd39a9.jpeg",
+    "index.html": "/zipkre/index.html",
+    "main.0ebea41b.css.map": "/zipkre/static/css/main.0ebea41b.css.map",
+    "main.59436818.js.map": "/zipkre/static/js/main.59436818.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ebea41b.css",
+    "static/js/main.59436818.js"
+  ]
+}
