@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.hr {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    height: 500px;
+    background-color: rgb(225, 225, 225);
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav li {
+    position: relative;
+    display: inline;
+    color: rgb(140, 140, 140);
+    font-size: 17px;
+    text-decoration: underline;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li:hover  {
+    color: #666;
+}
+
+.fa-shopping-cart {
+    font-size: 24px;
+}
+
+.productCountCircle {
+    text-align: center;
+    line-height: 16px;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    font-size: 16px;
+    color: #000;
+}
+
+.leftHeader, .rightHeader {
+    display: inline-block;
+    width: 50%;
+}
+
+.leftHeader {
+    z-index: 4;
+}
+
+.leftHeader div {
+    position: relative;
+    width: fit-content;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+}
+
+.leftHeader h1 {
+    font-size: 70px;
+}
+
+.leftHeader h2 {
+    font-size: 30px;
+}
+
+.rightHeader img {
+    position: relative;
+    display: block;
+    top: -70px;
+    height: 140%;
+    margin: auto;
+    zoom: 1;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+main h2 {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+#about {
+    display: flex;
+}
+
+#about img {
+    height: 400px;
+}
+
+.aboutProductBox {
+    display: flex;
+    flex-direction: column;
+}
+
+#about section {
+    display: flex;
+    text-align: center;
+}
+
+#about section h1 {
+    border-radius: 16px;
+    width: 240px;
+    line-height: 2.5;
+}
+
+#about section p {
+    background-color: rgb(233, 233, 233);
+    border-radius: 16px;
+    font-size: 20px;
+    padding: 6px;
+    line-height: 3vw;
+    width: 100%;
+}
+
+.prece {
+    min-width: 200px;
+    padding: 0 15px;
+}
+
+.preceContent {
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+.preceContent img {
+    width: 100%;
+}
+
+.preceContent h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    padding: 0 10px;
+    margin-bottom: 0;
+    color: rgb(81, 81, 81);
+}
+
+.size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size span {
+    height: 26px;
+    line-height: 26px;
+    background-color: black;
+    margin: 0 5px;
+    padding: 0 6px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.size span:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.details {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details p {
+    padding: 0 15px;
+    font-size: 25px;
+    margin: 0;
+}
+
+.details span {
+    line-height: 0px;
+    padding: 0 10px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.details span:hover {
+    color: #666;
+    transform: scale(1.2);
+}
+
+.slick-next::before, .slick-prev::before {
+    color: black;
+    
+}
+
+.slick-arrow {
+    transform: scale(1.4);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(41, 40, 40);
+}
+
+.fa-facebook,
+.fa-instagram {
+    padding: 19px;
+    font-size: 30px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    color: white;
+    margin: 0 8px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-instagram {
+    background: #cb62aa;
+}
+
+@media (max-width:1120px) {
+    .aboutProductBox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #about section {
+        flex-direction: column;
+        margin: 0px;
+        flex: 50% 0;
+    }
+    #about section h1 {
+        width: 100%;
+    }
+    #about section p {
+        width: 95%;
+        height: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width:840px) {
+    #about img {
+        display: none;
+    }
+}
+
+@media (max-width:760px) {
+    .leftHeader {
+        width: 100%;
+    }
+    .rightHeader {
+        position: absolute;
+        display: block;
+        overflow: hidden;
+        height: 500px;
+        width: 100%;
+    }
+    .rightHeader img {
+        margin: auto;
+        padding-left: 14vw;
+    }
+    #about section h1 {
+        font-size: larger;
+    }
+    #about section p {
+        font-size: medium;
+    }
+}
