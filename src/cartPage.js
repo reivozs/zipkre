@@ -131,7 +131,10 @@ const CartPage = () => {
                 <input type="email" name="user_email" />
                 <br />
                 <h3>Summa: ${totalRef.current}</h3>
-                <ReCAPTCHA sitekey="Your client site key" onChange={Captcha} />
+                <ReCAPTCHA
+                  sitekey="6LcspA0gAAAAAG6lek4EtSN8coOxn2ScXJr3L4Oi"
+                  onChange={Captcha}
+                />
                 <input type="submit" value="Noformēt pirkumu" />
                 {productList?.map((product) => {
                   return (
@@ -154,7 +157,10 @@ const CartPage = () => {
         </div>
       </main>
       <footer id="footer">
-        <a href="#" className="fa fa-facebook"></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100080978261047"
+          className="fa fa-facebook"
+        ></a>
         <a
           href="https://instagram.com/_zipkre_smu_?igshid=YmMyMTA2M2Y="
           className="fa fa-instagram"
