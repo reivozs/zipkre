@@ -10,7 +10,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/cart" element={<CartPage />} />
+        <Route path="/zipkre/cart" element={<CartPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
