@@ -141,7 +141,7 @@ const CartPage = () => {
                         value={`
                           <div style="border: solid gray">
                             <span>${product.nosaukums}</span>
-                            <span>${product.cena}</span?
+                            <span>$${product.cena}</span?
                           </div>
                         `}
                       />
