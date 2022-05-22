@@ -7,6 +7,7 @@ const CartPage = () => {
   const [productList, setProductList] = useState(
     JSON.parse(window.sessionStorage.getItem("productList"))
   );
+  const [captcha, setCaptcha] = useState(false);
 
   const form = useRef();
 
@@ -18,27 +19,34 @@ const CartPage = () => {
       form.current.elements["user_name"].value !== "" &&
       form.current.elements["user_surname"].value !== "" &&
       form.current.elements["user_email"].value !== "" &&
-      form.current.elements["piegadesVeids"].value !== "" &&
-      productList.length > 0
+      form.current.elements["piegadesVeids"].value !== ""
     ) {
-      emailjs
-        .sendForm(
-          "gmail",
-          "template_7e28plm",
-          form.current,
-          "1ExmH4jPglPvAXI_O"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-            alert("Veiksmīgi pasūtīts!");
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
+      if (captcha == true) {
+        if (productList.length > 0) {
+          emailjs
+            .sendForm(
+              "gmail",
+              "template_7e28plm",
+              form.current,
+              "1ExmH4jPglPvAXI_O"
+            )
+            .then(
+              (result) => {
+                console.log(result.text);
+                alert("Veiksmīgi pasūtīts!");
+              },
+              (error) => {
+                console.log(error.text);
+              }
+            );
+        } else {
+          alert("Ielieciet grozā kādu preci");
+        }
+      } else {
+        alert("Nav apstiprināta vertifikācija");
+      }
     } else {
-      alert("Please fill all boxes");
+      alert("Aizpildiet visu prasītos lauciņus");
     }
   };
 
@@ -52,7 +60,7 @@ const CartPage = () => {
   }, [productList]);
 
   function Captcha(value) {
-    console.log("Captcha value:", value);
+    setCaptcha(true);
   }
 
   return (
