@@ -203,8 +203,16 @@ const HomePage = () => {
         </Slider>
       </main>
       <footer id="footer">
-        <a href="#" className="fa fa-facebook"></a>
-        <a href="#" className="fa fa-instagram"></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100080978261047"
+          className="fa fa-facebook"
+          target="_blank"
+        ></a>
+        <a
+          href="https://instagram.com/_zipkre_smu_?igshid=YmMyMTA2M2Y="
+          className="fa fa-instagram"
+          target="_blank"
+        ></a>
       </footer>
     </>
   );
