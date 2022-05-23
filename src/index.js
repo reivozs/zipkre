@@ -10,7 +10,7 @@ root.render(
     <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
       <Routes>
         <Route exact path="/zipkre/" element={<HomePage />} />
-        <Route path="/zipkre/cart/" element={<CartPage />} />
+        <Route path="zipkre/cart/" element={<CartPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
