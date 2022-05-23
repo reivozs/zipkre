@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zipkre/static/css/main.0ebea41b.css",
+    "main.css": "/zipkre/static/css/main.277776ad.css",
     "main.js": "/zipkre/static/js/main.9a84dbe5.js",
     "static/media/sarkanszils.png": "/zipkre/static/media/sarkanszils.f252dde89cd2b4f44af4.png",
     "static/media/blueSleeve.jpeg": "/zipkre/static/media/blueSleeve.1dbe9880489b612c9100.jpeg",
@@ -18,11 +18,11 @@
     "static/media/white.jpeg": "/zipkre/static/media/white.3acf746a039e0e03d659.jpeg",
     "static/media/red.jpeg": "/zipkre/static/media/red.9307ffa0425450cd39a9.jpeg",
     "index.html": "/zipkre/index.html",
-    "main.0ebea41b.css.map": "/zipkre/static/css/main.0ebea41b.css.map",
+    "main.277776ad.css.map": "/zipkre/static/css/main.277776ad.css.map",
     "main.9a84dbe5.js.map": "/zipkre/static/js/main.9a84dbe5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ebea41b.css",
+    "static/css/main.277776ad.css",
     "static/js/main.9a84dbe5.js"
   ]
 }
