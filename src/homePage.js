@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import "./style/homePage.css";
 import sarkanszils from "./images/ShirtDifSleeve/sarkanszils.png";
 import { preces } from "./preces.js";
@@ -94,13 +93,13 @@ const HomePage = () => {
         <div className="leftHeader">
           <nav>
             <li>
-              <Link to="/zipkre/cart/">
+              <a href="/zipkre/cart/">
                 <i className="fa fa-shopping-cart">
                   <span className="productCountCircle">
                     {productList ? productList.length : 0}
                   </span>
                 </i>
-              </Link>
+              </a>
             </li>
             <li>
               <a href="#about">About</a>
