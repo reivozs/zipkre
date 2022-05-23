@@ -7,7 +7,7 @@ import CartPage from "./cartPage";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
+    <BrowserRouter>
       <Routes>
         <Route exact path="/zipkre/" element={<HomePage />} />
         <Route path="zipkre/cart/" element={<CartPage />} />
